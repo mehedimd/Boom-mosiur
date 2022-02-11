@@ -1,0 +1,122 @@
+body{
+	box-sizing: border-box;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	background-color:#212529bf;
+}
+img:hover{
+	border: 1px solid #ccc;
+}
+
+#img1,#img2{
+	padding-top: 60px;
+}
+/*........navbar.............*/
+
+.navbar{
+	background-image: linear-gradient(#8E2DE2, #4A00E0);
+	border-bottom: 3px solid #35FF21;
+
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	color:#fff;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color:red;
+}
+/*.............header-top-section*/
+
+
+/*----------Header Section----------*/
+
+
+
+
+
+#header-section-home{
+	background:url(background.jpg);
+	background-repeat: no-repeat;
+	min-height:700px;
+	background-size: cover;
+	
+	
+
+   
+}
+#header-section-home .dark-overlay{
+	
+	min-height:700px;
+	background:#19181896;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	
+	
+}
+#header-section-home .dark-overlay .fa{
+	background-color:#40da00;
+	color:#fff;
+	padding: 4px;
+	font-size: 30px;
+	
+	margin-top:6px;
+}
+
+@media (max-width: 768px){
+	#header-section-home h1{
+		font-size:36px;
+	}
+}
+
+
+/*----------Explore------*/
+#explore-heading-section{
+	background-image: linear-gradient(#8E2DE2, #4A00E0);
+}
+#explore-heading-section h2{
+	font-weight: bold;
+}
+
+#explore-main-section .fa{
+	font-size: 30px;
+	background: #40da00;
+	color: #fff;
+	padding: 4px;
+	margin-top:6px;
+}
+
+/*-----------create section........*/
+#create-section{
+	background-image: linear-gradient(#8E2DE2, #4A00E0);
+}
+
+/*-----create main section----*/
+
+#create-main-section .fa{
+	font-size: 30px;
+	background: #40da00;
+	color: #fff;
+	padding: 4px;
+	margin-top:6px;
+}
+
+#create-main-section p{
+	word-spacing:4px;
+}
+
+/*---------shere section------*/
+#shere-section{
+	background-image: linear-gradient(#8E2DE2, #4A00E0);
+}
+
+#shere-main-section .fa{
+	font-size: 30px;
+	background: #40da00;
+	color: #fff;
+	padding: 4px;
+	margin-top:6px;
+}
+
+/*----------footer section-------*/
+#footer_section{
+	background-image: linear-gradient(#8E2DE2, #4A00E0);
+}
